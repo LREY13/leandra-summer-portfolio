@@ -3,7 +3,6 @@ For this project, I created a biometric heart rate monitor using an Arduino Uno 
 
 Main challenge: coding!!
 
-![HEADSTONE IMAGE] (IMG_3403.HEIC)
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
