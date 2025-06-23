@@ -94,7 +94,7 @@ PulseSensorPlayground pulseSensor;
  
 void setup() 
 {
-  // Initialize Serial Monitor
+  //Initialize Serial Monitor
   Serial.begin(9600);
  
   // Configure PulseSensor
