@@ -1,5 +1,7 @@
 # Biometric monitor and display 
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+For this project, I created a biometric heart rate monitor using an Arduino Uno and a pulse sensor that uses green light to detect how quickly it reflects off my skin—this is how it senses each heartbeat. The Arduino uses my computer power to  power  the sensor and also sends data to my computer,  where I can see my heartbeats per minute in real time. One of my biggest challenges was getting the code to work properly, but through trial and error, I learned the importance of double-checking cable connections and understanding how each component interacts. Seeing the  heartbeat appear on screen was a huge triumph and made the challenges  worth it.
+
+Main challenge: coding!!
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
