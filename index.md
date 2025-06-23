@@ -59,20 +59,69 @@ For your first milestone, describe what your project is and how you plan to buil
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to custom
+int redLED = 13;
+int greenLED = 2;
 
-```c++
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  pinMode(redLED, OUTPUT);
+  pinMode(greenLED, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  digitalWrite(redLED, HIGH);
+  delay(1200);
+     
+  digitalWrite(redLED, LOW);   
+  delay(20000); 
+    
+  digitalWrite(greenLED, HIGH); 
+  delay(150000);
+    
+  digitalWrite(greenLED, LOW);   
+  delay(1000);   
 
+
+
+ 
+// Constants
+const int PULSE_SENSOR_PIN = 0;  // Analog PIN where the PulseSensor is connected
+const int LED_PIN = 13;          // On-board LED PIN
+const int THRESHOLD = 550;       // Threshold for detecting a heartbeat
+ 
+// Create PulseSensorPlayground object
+PulseSensorPlayground pulseSensor;
+ 
+void setup() 
+{
+  // Initialize Serial Monitor
+  Serial.begin(9600);
+ 
+  // Configure PulseSensor
+  pulseSensor.analogInput(PULSE_SENSOR_PIN);
+  pulseSensor.blinkOnPulse(LED_PIN);
+  pulseSensor.setThreshold(THRESHOLD);
+ 
+  // Check if PulseSensor is initialized
+  if (pulseSensor.begin()) 
+  {
+    Serial.println("PulseSensor object created successfully!");
+  }
 }
-```
+ 
+void loop() 
+{
+  // Get the current Beats Per Minute (BPM)
+  int currentBPM = pulseSensor.getBeatsPerMinute();
+ 
+  // Check if a heartbeat is detected
+  if (pulseSensor.sawStartOfBeat()) 
+  {
+    Serial.println("♥ A HeartBeat Happened!");
+    Serial.print("BPM: ");
+    Serial.println(currentBPM);
+  }
+
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
