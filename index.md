@@ -56,7 +56,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 
--the purpuso of my code is for my computer to be able to read what the  information that the arduino uno is giving it 
+-the purpuso of my code is for my computer to be able to read what the  information that the arduino uno is giving it
 
 ```c++
 int redLED = 13;
