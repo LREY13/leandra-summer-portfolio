@@ -53,7 +53,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # Schematics 
 
-[my image](creenshot.jpeg)
+[Headstone image](creenshot.jpeg)
 
 
 # Code
