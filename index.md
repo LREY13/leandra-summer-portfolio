@@ -58,7 +58,9 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 
--the purpuso of my code is for my computer to be able to read what the  information that the arduino uno is giving it 
+-the purpuso of my code is for my computer to be able to read what the  information that the arduino uno is giving it.
+-led lights code: the purpose of this code is to make the both lights blink in different patters
+-pulse sensor: for this code i use a library called "PulseSensorPlayground", the purpose of this code was to display the heart beat per minute in my computer
 
 ```c++
 int redLED = 13;
