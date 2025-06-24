@@ -58,7 +58,8 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to custom
 
 
-"```c++"int redLED = 13;
+"```c++"
+int redLED = 13;
 int greenLED = 2;
 
 void setup() {
@@ -77,7 +78,8 @@ void loop() {
   delay(150000);
     
   digitalWrite(greenLED, LOW);   
-  delay(1000); "```c++"  
+  delay(1000); 
+  "```c++"  
 
 
 
@@ -118,7 +120,8 @@ void loop()
     Serial.println("♥ A HeartBeat Happened!");
     Serial.print("BPM: ");
     Serial.println(currentBPM);
-  }"```c++"
+  }
+  "```c++"
 
 
 # Bill of Materials
