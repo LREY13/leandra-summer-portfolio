@@ -52,8 +52,8 @@ For your second milestone, explain what you've worked on since your previous mil
  I created a biometric heart rate monitor using an Arduino Uno and a pulse sensor that uses green light to detect how quickly it reflects off my skin—this is how it senses each heartbeat. The Arduino uses my computer power to power the sensor and also sends data to my computer, where I can see my heartbeats per minute in real time. One of my biggest challenges was getting the code to work properly, but through trial and error, I learned the importance of double-checking cable connections and understanding how each component interacts
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
+[my image](creenshot.jpeg)
 
 
 # Code
