@@ -79,11 +79,11 @@ void loop() {
     
   digitalWrite(greenLED, LOW);   
   delay(1000); 
-  "```c++
+  
 
 
 
-"```c++" 
+
 // Constants
 const int PULSE_SENSOR_PIN = 0;  // Analog PIN where the PulseSensor is connected
 const int LED_PIN = 13;          // On-board LED PIN
@@ -120,8 +120,7 @@ void loop()
     Serial.println("♥ A HeartBeat Happened!");
     Serial.print("BPM: ");
     Serial.println(currentBPM);
-  }
-  "```
+  } ```
 
 
 # Bill of Materials
