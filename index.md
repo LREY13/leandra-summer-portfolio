@@ -120,7 +120,8 @@ void loop()
     Serial.println("♥ A HeartBeat Happened!");
     Serial.print("BPM: ");
     Serial.println(currentBPM);
-  } ```
+  }
+```
 
 
 # Bill of Materials
