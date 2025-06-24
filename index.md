@@ -54,6 +54,8 @@ For your second milestone, explain what you've worked on since your previous mil
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
+
+
 # Code
 
 -the purpuso of my code is for my computer to be able to read what the  information that the arduino uno is giving it 
