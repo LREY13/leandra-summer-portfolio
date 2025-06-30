@@ -51,16 +51,17 @@ For your second milestone, explain what you've worked on since your previous mil
 
  I created a biometric heart rate monitor using an Arduino Uno and a pulse sensor that uses green light to detect how quickly it reflects off my skin—this is how it senses each heartbeat. The Arduino uses my computer power to power the sensor and also sends data to my computer, where I can see my heartbeats per minute in real time. One of my biggest challenges was getting the code to work properly, but through trial and error, I learned the importance of double-checking cable connections and understanding how each component interacts
 
-# Schematics 
-
-![Headstone image](Screenshot.jpeg)
 
 
-# Code
+
+
+# first milestone code 
+
 
 -the purpuso of my code is for my computer to be able to read what the  information that the arduino uno is giving it.
 -led lights code: the purpose of this code is to make the both lights blink in different patters
 -pulse sensor: for this code i use a library called "PulseSensorPlayground", the purpose of this code was to display the heart beat per minute in my computer
+
 
 ```c++
 int redLED = 13;
@@ -126,6 +127,18 @@ void loop()
     Serial.println(currentBPM);
   }
 ```
+
+# Schematics 
+
+![Headstone image](Screenshot.jpeg)
+
+
+# Code
+
+-the purpuso of my code is for my computer to be able to read what the  information that the arduino uno is giving it.
+-led lights code: the purpose of this code is to make the both lights blink in different patters
+-pulse sensor: for this code i use a library called "PulseSensorPlayground", the purpose of this code was to display the heart beat per minute in my computer
+
 
 
 # Bill of Materials
