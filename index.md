@@ -41,8 +41,68 @@ For your second milestone, explain what you've worked on since your previous mil
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- What needs to be completed before your final milestone
 
+
+
+# Second milestone code 
+
+```c++
+#include <PulseSensorPlayground.h>
+#include <LiquidCrystal.h>
+
+// initialize the library by associating any needed LCD interface pin
+// with the arduino pin number it is connected to
+
+const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+
+// Constants
+const int PULSE_SENSOR_PIN = 0;  // Analog PIN where the PulseSensor is connected
+const int LED_PIN = 13;          // On-board LED PIN
+const int THRESHOLD = 550;       // Threshold for detecting a heartbeat
+ 
+PulseSensorPlayground pulseSensor; // Create PulseSensor object
+
+void setup() {
+  // Initialize Serial Monitor
+  Serial.begin(9600);
+   
+  // Configure PulseSensor
+  pulseSensor.analogInput(PULSE_SENSOR_PIN);
+  pulseSensor.blinkOnPulse(LED_PIN);
+  pulseSensor.setThreshold(THRESHOLD);
+   
+  // Check if PulseSensor is initialized
+  if (pulseSensor.begin()){ 
+  Serial.println("PulseSensor object created successfully!"); }
+  
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+}
+ 
+void loop() {
+  // Get the current Beats Per Minute (BPM)
+  int currentBPM = pulseSensor.getBeatsPerMinute();
+  
+  // Check if a heartbeat is detected
+  if (pulseSensor.sawStartOfBeat()) {
+    Serial.println("♥ A HeartBeat Happened!");
+    Serial.print("BPM: ");
+    Serial.println(currentBPM);
+  
+    lcd.setCursor(0, 0);
+    lcd.print("BPM = ");
+    lcd.print(currentBPM);
+    lcd.print("   ");  // clear trailing chars
+  }
+     
+  // Add a small delay to reduce CPU usage
+  delay(20);
+  lcd.clear();
+}
+
+```
 # First Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -84,10 +144,11 @@ void loop() {
     
   digitalWrite(greenLED, LOW);   
   delay(1000); 
-  
+
+```
 
 
-
+```c++
 
 // Constants
 const int PULSE_SENSOR_PIN = 0;  // Analog PIN where the PulseSensor is connected
