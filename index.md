@@ -107,7 +107,7 @@ void loop() {
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="502" height="893" src="https://www.youtube.com/embed/V3dbaUgp3Kw" title="Leandra R. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
  I created a biometric heart rate monitor using an Arduino Uno and a pulse sensor that uses green light to detect how quickly it reflects off my skin—this is how it senses each heartbeat. The Arduino uses my computer power to power the sensor and also sends data to my computer, where I can see my heartbeats per minute in real time. One of my biggest challenges was getting the code to work properly, but through trial and error, I learned the importance of double-checking cable connections and understanding how each component interacts
 
