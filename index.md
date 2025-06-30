@@ -9,9 +9,9 @@ You should comment out all portions of your portfolio that you have not complete
 <!--- Anything between these symbols will not render on the published site -->
 ```
 
-| **Leandra** | **KIPP COLLEGE PREPl** | **Area of Interest** | **rising sophomore** |
+| **Name** | **School** | **Area of Interest** | **grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Leandra R| Kipp college prep | Electrical Engineering | Incoming sophomore 
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -43,6 +43,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
 
+**for my second milestone
 
 
 # Second milestone code 
@@ -192,13 +193,6 @@ void loop()
 # Schematics 
 
 ![Headstone image](Screenshot.jpeg)
-
-
-# Code
-
--the purpuso of my code is for my computer to be able to read what the  information that the arduino uno is giving it.
--led lights code: the purpose of this code is to make the both lights blink in different patters
--pulse sensor: for this code i use a library called "PulseSensorPlayground", the purpose of this code was to display the heart beat per minute in my computer
 
 
 
