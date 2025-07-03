@@ -26,9 +26,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-
- <iframe width="502" height="893" src="https://www.youtube.com/embed/V3dbaUgp3Kw" title="Leandra R. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-# Second Milestone
+#second milestone 
 
 <iframe width="502" height="893" src="https://www.youtube.com/embed/0ZlwWaJDVI0" title="Leandra R. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
