@@ -1,5 +1,5 @@
 # Biometric monitor and display 
-For this project, I created a biometric heart rate monitor using an Arduino Uno and a pulse sensor that uses green light to detect how quickly it reflects off my skin—this is how it senses each heartbeat. The Arduino uses my computer power to  power  the sensor and also sends data to my computer,  where I can see my heartbeats per minute in real time. One of my biggest challenges was getting the code to work properly, but through trial and error, I learned the importance of double-checking cable connections and understanding how each component interacts. Seeing the  heartbeat appear on screen was a huge triumph and made the challenges  worth it.
+For this project, I created a biometric heart rate monitor using an Arduino Uno and a pulse sensor that uses green light to detect how quickly it reflects off my skin—this is how it senses each heartbeat. The Arduino uses my computer power to  power  the sensor and also sends data to my computer,  where I can see my heartbeats per minute in real time. One of my biggest challenges was getting the code to work properly, but through trial and error, I learned the importance of double-checking cable connections and understanding how each component interacts. Seeing the  heartbeat appear on screen was a huge triumph and made the challenges  worth it. For a modification I decided I was going to be adding a tempertature sensor just to make my project a little more cool>
 
 Main challenge: coding!!
 
@@ -19,9 +19,7 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-
+<iframe width="1220" height="773" src="https://www.youtube.com/embed/NcmXXda_h78" title="Leandra R. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -32,17 +30,14 @@ For your final milestone, explain the outcome of your project. Key details to in
  <iframe width="502" height="893" src="https://www.youtube.com/embed/V3dbaUgp3Kw" title="Leandra R. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="502" height="893" src="https://www.youtube.com/embed/0ZlwWaJDVI0" title="Leandra R. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone
 
-**for my second milestone
+**-for my second milestone milestone i was able to complete my project
+-my biggest challenge was coding 
+-the biggest thing i learned is to always go back and check if theres any mistake on your code , IT CAN BE THE REASON WHY IT DOESNT WORK!
+
 
 
 # Second milestone code 
@@ -105,7 +100,6 @@ void loop() {
 ```
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="502" height="893" src="https://www.youtube.com/embed/V3dbaUgp3Kw" title="Leandra R. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
