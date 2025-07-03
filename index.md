@@ -20,13 +20,10 @@ You should comment out all portions of your portfolio that you have not complete
 # Final Milestone
 
 <iframe width="1220" height="773" src="https://www.youtube.com/embed/NcmXXda_h78" title="Leandra R. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
-#second milestone 
+ Since my previous milestone, I was able to successfully add a temperature sensor to my biometric monitor and display, which was a major accomplishment in my project. The biggest challenge throughout this process was coding, especially because of the different components that needed to work together, but overcoming this helped me grow more confident in my technical abilities. The key topic I focused on and learned the most about was coding, as it was essential for making my project function properly. After everything I’ve learned at BSE, I hope to continue expanding my knowledge of engineering and explore even more areas in the field.
+
+# second milestone 
 
 <iframe width="502" height="893" src="https://www.youtube.com/embed/0ZlwWaJDVI0" title="Leandra R. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -200,7 +197,6 @@ Don't forget to place the link of where to buy each component inside the quotati
 | pulse sensor  | detects pulse | $24 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> | 
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [arduino nano compatible leds](https://www.instructables.com/Arduino-Nano-Compatible-LEDs//)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
